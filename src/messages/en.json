@@ -1,0 +1,25 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "description": "Go to the about page"
+  },
+  "NotFoundPage": {
+    "title": "Not Found"
+  },
+  "NavLinks": {
+    "home": {
+      "url": "#",
+      "label": "Home"
+    },
+    "trackOrder": {
+      "url": "#",
+      "label": "Track Order"
+    }
+  },
+  "Common": {
+    "orderNow": "Order Now"
+  },
+  "ErrorPage": {
+    "title": "Test Error"
+  }
+}
