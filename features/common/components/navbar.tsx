@@ -3,20 +3,16 @@
 import React, { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
-// import { navLinks } from "@/constants/navlinks";
+import { navLinks } from "@/constants/navlinks";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { AlignJustify } from "lucide-react";
-import { useTranslations } from "next-intl";
 
 type NavBarProps = {
   openNav: () => void;
 };
 
 const Navbar = ({ openNav }: NavBarProps) => {
-  const t = useTranslations("NavLinks");
-  const navLinks = ["home", "trackOrder"] as const;
-
   const [navBackground, setNavBackground] = useState(false);
 
   useEffect(() => {
@@ -64,14 +60,15 @@ const Navbar = ({ openNav }: NavBarProps) => {
         <div className={cn("flex flex-row space-x-10")}>
           <div className={cn("hidden lg:flex items-center space-x-10")}>
             {navLinks.map((link) => {
+              const { id, url, label } = link;
               return (
-                <Link href={t(`${link}.url`)} key={link}>
+                <Link href={url} key={id}>
                   <p
                     className={cn(
                       "relative text-white text-base font-medium w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#ae2b2f] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition duration-300 after:origin-right"
                     )}
                   >
-                    {t(`${link}.label`)}
+                    {label}
                   </p>
                 </Link>
               );

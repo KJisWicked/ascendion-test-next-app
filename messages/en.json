@@ -20,6 +20,6 @@
     "orderNow": "Order Now"
   },
   "ErrorPage": {
-    "title": "Test Error"
+    "title": "Something Went Wrong"
   }
 }
