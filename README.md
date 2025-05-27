@@ -103,7 +103,7 @@ nvm alias default 22.13.1
 
 ## Setting Up Project
 
-1. `npm` is also installed together with its corresponding NodeJS version that you installed with `nvm`. But you can ignore this, as we are experimenting with using `yarn`.
+1. `npm` is also installed together with its corresponding NodeJS version that you installed with `nvm`. But you can ignore this, as we are using `yarn` here.
 
 2. Install dependencies:
 
