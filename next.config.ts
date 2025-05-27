@@ -15,6 +15,7 @@ const nextConfig: NextConfig = {
       fullUrl: true,
     },
   },
+  devIndicators: false,
   serverExternalPackages: ["pino", "pino-pretty"],
 };
 
