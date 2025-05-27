@@ -72,7 +72,7 @@ const AdditionForm = () => {
               <FormItem className={cn("space-y-2")}>
                 <FormControl>
                   <Input
-                    placeholder="First Number"
+                    placeholder="Second Number"
                     {...field}
                     onChange={(e) => {
                       let value = e.target.value;
