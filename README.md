@@ -9,8 +9,8 @@
 This is a **[NextJS 15](https://nextjs.org)** project which is bootstrapped with:
 
 - Husky Git Hooks + Lint Staged
-- Base File structure for modules
 - App Router
+- ShadCN UI components
 
 ## Table of Contents
 
