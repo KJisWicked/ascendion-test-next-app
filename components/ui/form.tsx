@@ -120,6 +120,7 @@ const FormControl = React.forwardRef<
           : `${formDescriptionId} ${formMessageId}`
       }
       aria-invalid={!!error}
+      className={cn(error ? "border-destructive focus:border-transparent" : "")}
       {...props}
     />
   );
