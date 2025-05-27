@@ -4,42 +4,35 @@
   </a>
 </p>
 
-# NextJS 15 Starter Kit
+# Ascendion Technical Asssessment NextJS App
 
-This is a **[NextJS](https://nextjs.org)** project which is bootstrapped with:
+This is a **[NextJS 15](https://nextjs.org)** project which is bootstrapped with:
 
-- i18n Routing (Internationalization)
 - Husky Git Hooks + Lint Staged
 - Base File structure for modules
-- Tanstack/React Query
-- Prebuilt Sample Components: Generic Navbar, Mobile Navbar and Footer.
+- App Router
 
 ## Table of Contents
 
-- [NextJS 15 Starter Kit](#nextjs-15-starter-kit)
+- [Ascendion Technical Asssessment NextJS App](#ascendion-technical-asssessment-nextjs-app)
   - [Table of Contents](#table-of-contents)
   - [Framework Specs](#framework-specs)
-  - [Core 3rd Party Packages](#core-3rd-party-packages)
 - [Getting Started](#getting-started)
   - [Pre-requisites](#pre-requisites)
   - [Setting up NVM](#setting-up-nvm)
+    - [For Windows](#for-windows)
     - [For Unix Systems (Linux/Mac Terminal)](#for-unix-systems-linuxmac-terminal)
-  - [Choice of Editor (VSCode)](#choice-of-editor-vscode)
+  - [Setting Up Project](#setting-up-project)
+  - [Accessing My Answers](#accessing-my-answers)
+    - [Q1 - Adding Two Numbers](#q1---adding-two-numbers)
+    - [Q2 - Desktop \& Mobile View Navbar](#q2---desktop--mobile-view-navbar)
+    - [Q3 - Two Sum II](#q3---two-sum-ii)
 
 ## Framework Specs
 
 - [React 19](https://react.dev/blog/2024/12/05/react-19)
 - [NextJS 15.2.2](https://nextjs.org/)
 - [Tailwind v3](https://v3.tailwindcss.com/)
-
-## Core 3rd Party Packages
-
-This packages will be your main focus when working on this project.
-
-- [shadcn/ui](https://ui.shadcn.com/) - For UI components
-- [react-hook-forms](https://react-hook-form.com/) + [zod](https://zod.dev/) / [zod-form-data](https://www.remix-validated-form.io/zod-form-data) - For Form Validations
-
-> _These are not mandatory but flexible if better libraries are found._
 
 # Getting Started
 
@@ -48,10 +41,16 @@ This packages will be your main focus when working on this project.
 You should install these before starting development:
 
 1. [NVM](https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/) (Node Version Manager) - **_use Node Version v22.13.1_**
-2. [Yarn](https://www.npmjs.com/package/yarn) - For package managing
+2. [Yarn](https://www.npmjs.com/package/yarn) - For package managing as `yarn` is used instead of `npm`.
 3. [VSCode](https://code.visualstudio.com/download) - Recommended Editor as we have formatted plugins configured. But if you insist, any editor of your choice.
 
 ## Setting up NVM
+
+### For Windows
+
+1. You are recommended to have Node installed at least version of 22 onwards in order to run the project. Otherwise download it [here](https://nodejs.org/en/download).
+
+2. After you're done, you can skip to the _**Setting Up Project**_ section.
 
 ### For Unix Systems (Linux/Mac Terminal)
 
@@ -102,37 +101,46 @@ nvm use 22.13.1
 nvm alias default 22.13.1
 ```
 
-7. `npm` is also installed together with its corresponding NodeJS version that you installed with `nvm`. But you can ignore this, as we are experimenting with using `yarn`.
+## Setting Up Project
 
-8. Navigate to the `jfj-frontend` root project directory and run this to generate the env file for development:
+1. `npm` is also installed together with its corresponding NodeJS version that you installed with `nvm`. But you can ignore this, as we are experimenting with using `yarn`.
 
-```
-cp .env.example .env
-```
-
-9. Install dependencies:
+2. Install dependencies:
 
 ```
 yarn install
 ```
 
-10. At last, start the project to start local development:
+3. At last, start the project to start local development:
 
 ```
 yarn dev
 ```
 
-11. Happy Coding!!!
+4. You should acces the project via `localhost:3000` by default otherwise, what your terminal indicates.
 
-## Choice of Editor (VSCode)
+## Accessing My Answers
 
-If you're using VSCode as your editor, you are recommended to install these plugins as we will enforce syntax formatting rules using ESLint and Prettier.
+### Q1 - Adding Two Numbers
 
-- ESLint
-- Prettier - Code formatter
-- Error Lens
-- Better Comments
-- Headwind (For Tailwind CSS formatting)
-- Tailwind CSS IntelliSense
-- HTML CSS Support
-- DotENV
+Access this via the url
+
+```
+localhost:3000/q1
+```
+
+### Q2 - Desktop & Mobile View Navbar
+
+Access this via the url
+
+```
+localhost:3000/q2
+```
+
+### Q3 - Two Sum II
+
+Access this via the url
+
+```
+localhost:3000/q3
+```
