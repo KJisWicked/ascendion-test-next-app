@@ -23,10 +23,10 @@ This is a **[NextJS 15](https://nextjs.org)** project which is bootstrapped with
     - [For Windows](#for-windows)
     - [For Unix Systems (Linux/Mac Terminal)](#for-unix-systems-linuxmac-terminal)
   - [Setting Up Project](#setting-up-project)
-  - [Accessing My Answers](#accessing-my-answers)
-    - [Q1 - Adding Two Numbers](#q1---adding-two-numbers)
-    - [Q2 - Desktop \& Mobile View Navbar](#q2---desktop--mobile-view-navbar)
-    - [Q3 - Two Sum II](#q3---two-sum-ii)
+- [Accessing My Answers](#accessing-my-answers)
+  - [Q1 - Adding Two Numbers](#q1---adding-two-numbers)
+  - [Q2 - Desktop \& Mobile View Navbar](#q2---desktop--mobile-view-navbar)
+  - [Q3 - Two Sum II](#q3---two-sum-ii)
 
 ## Framework Specs
 
@@ -119,9 +119,9 @@ yarn dev
 
 4. You should acces the project via `localhost:3000` by default otherwise, what your terminal indicates.
 
-## Accessing My Answers
+# Accessing My Answers
 
-### Q1 - Adding Two Numbers
+## Q1 - Adding Two Numbers
 
 Access this via the url
 
@@ -129,7 +129,7 @@ Access this via the url
 localhost:3000/q1
 ```
 
-### Q2 - Desktop & Mobile View Navbar
+## Q2 - Desktop & Mobile View Navbar
 
 Access this via the url
 
@@ -137,7 +137,7 @@ Access this via the url
 localhost:3000/q2
 ```
 
-### Q3 - Two Sum II
+## Q3 - Two Sum II
 
 Access this via the url
 
